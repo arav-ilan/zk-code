@@ -1,0 +1,9 @@
+# Ignore generated benchmark outputs by default (shards, pids, jsonl, logs, etc.).
+*
+# Keep this file, the curated headline result artifacts, and the final launcher.
+!.gitignore
+!full-sizes-local.json
+!full-sizes-local.csv
+!full-cloudlab-safechunks-combined.json
+!full-cloudlab-safechunks-combined.csv
+!launch-full-cloudlab-shards20-t1-safechunks.sh
